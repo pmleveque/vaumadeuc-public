@@ -1,0 +1,530 @@
+/*!
+ * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+ body {
+    width: 100%;
+    height: 100%;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+a {
+    color: #5b72c4;
+}
+
+a:hover, a:focus {
+    color: #d0850b;
+    text-decoration: none;
+}
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #f9f9f9;
+    display: none;
+
+}
+.navbar-default .navbar-brand {
+    color: #59403a;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #d0850b;
+}
+.navbar-default .navbar-text {
+    color: #59403a;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #59403a;
+    line-height: 40px;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #d0850b;
+    font-style: italic;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #d0850b;
+    background-color: #f9f9f9;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #d0850b;
+    background-color: #f9f9f9;
+}
+.navbar-default .navbar-toggle {
+    border-color: #4B2C16;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #f9f9f9;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #59403a;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #D2D1D1;
+}
+.navbar-default .navbar-link {
+    color: #59403a;
+}
+.navbar-default .navbar-link:hover {
+    color: #d0850b;
+}
+.navbar{
+    background-color: rgba(255, 255, 255, 0.95);
+    font-family: "Arial Narrow", Arial, sans-serif;
+    border: none;
+    height: 70px;
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 20px;
+}
+.navbar-nav {
+    font-size: 15px;
+}
+#logo-vaumadeuc-petit {
+    height: 70px; margin-top: -15px;
+}
+#logo-signature {
+    height: 25px;   margin-top: -20px; margin-left: 10px;
+}
+
+.accueil-section {
+    text-align: center;
+}
+.accueil-section .container-fluid {
+    margin-top: 70px;
+}
+.accueil-section h2 {
+	color: #A1A1A1;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20px;
+}
+.accueil-section p {
+    font-size: 14px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.accueil-section a {
+    display: inline-block;
+	color:black;
+}
+
+.accueil-section a img {
+    opacity: 1;
+    /*    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;*/
+    width: 100%;
+}
+
+.accueil-section .accueil-logo  {
+	width:280px;
+}
+
+.logo-vaumadeuc {
+    margin-top: -145px;
+    height: 280px;
+}
+
+.accueil a:hover {
+    opacity: 0.8;
+}
+#accueil-fromages {
+    padding: 0px;
+}
+#accueil-acheter {
+    padding: 0px;
+}
+#accueil-visiter {
+    padding: 0px;
+}
+.accueil-section .row:nth-child(2) {
+    bottom: 0px;
+    position: absolute;
+}
+
+
+.petitehistoire-section {
+    background-image: url("../photos/logo-30ans.jpg");
+}
+.fromagerie1-section {
+    background-image: url("../photos/fromagerie1.jpg");
+}
+.fromagerie2-section {
+    background-image: url("../photos/fromagerie2.jpg");
+}
+.fromagerie3-section p {
+    font-size: 12px;
+}
+.fromagerie3-section {
+    background-image: url("../photos/fromagerie3.jpg");
+}
+.fromagerie4-section {
+    background-image: url("../photos/fromagerie4.jpg");
+}
+.fromagerie5-section {
+    background-image: url("../photos/fromagerie5.jpg");
+}
+.fromagerie6-section {
+    background-image: url("../photos/fromagerie6.jpg");
+}
+.fromagerie7-section {
+    background-image: url("../photos/fromagerie7.jpg");
+}
+.fromagerie8-section {
+    background-image: url("../photos/fromagerie8.jpg");
+}
+.glaces-section {
+    background-image: url("../photos/glaces.jpg");
+}
+.visiter1-section {
+    background-image: url("../photos/ferme1.jpg");
+}
+.visiter2-section {
+    background-image: url("../photos/ferme2.jpg");
+}
+.visiter3-section {
+    background-image: url("../photos/ferme3.jpg");
+}
+.visiter3-section article {
+    background-image: url("plan.png");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 90%;
+	height: 600px;
+	margin-bottom:20px;
+}
+.acheter-section {
+    background-image: url("../photos/acheter.jpg");
+}
+.recette1-section {
+    background-image: url("../photos/recette1.jpg");
+}
+.recette2-section {
+    background-image: url("../photos/recette2.jpg");
+}
+
+.social-media-section {
+    background-image: url("../photos/socialmedia.jpg");
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: Sanchez;
+    color: #755e4e;
+    font-size: 160%;
+    font-weight: bold;
+}
+section h1 {
+    font-size: 60px;
+}
+
+section h3 {
+    display: inline;
+    font-size: 13px;
+}
+
+h1.font-effect-canvas-print {
+    color: #ce9630;
+}
+
+/* style pour le bloc vente en ligne*/
+.ss-q-title {
+  color: rgb(80,80,80);
+  font-weight: 700;
+  font-size: 1.40rem;
+  font-style: normal;
+}
+
+
+textarea{
+	resize:none;
+}
+
+
+section {
+    min-height: 100%;
+    /* padding-top: 50px; */
+    background-position: center;
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* padding-bottom: 50px; */
+}
+section .container {
+    max-width: 1000px;
+    font-size: 120%;
+    padding-top: 50px;
+}
+section article {
+    background-color: rgba(255, 255, 255, 0.85);
+    width: 500px;
+    display: block;
+    padding: 20px;
+    padding-top: 10px;
+    float: right;
+    /*margin-top: 70px; */
+    margin-right: 50px;
+    z-index: 10;
+    text-align: left;
+}
+
+section.full-width article {
+    background-color: rgba(255, 255, 255, 0.85);
+    width: 80%;
+    display: block;
+    padding: 50px;
+    padding-top: 10px;
+    float: left;
+    /*margin-top: 70px; */
+    margin-left: 100px;
+    z-index: 10;
+    text-align: left;
+}
+
+section.full-width article .two-columns {
+    column-count: 2;
+    column-gap: 40px;
+}
+
+.visiter3-section .two-columns {
+    column-count: 2;
+    column-gap: 20px;
+}
+
+
+section.petitehistoire-section article {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+section.petitehistoire-video-section iframe {
+  width: 900px;
+  height: 509px;
+}
+
+.navbar {
+    padding: 20px 0;
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+.top-nav-collapse {
+    padding: 0;
+}
+#fp-nav {
+    display: none;
+}
+
+.navbar-nav>li>a {
+  padding-left: 0px;
+}
+
+.social-media-mobile {
+    display: none;
+}
+
+/*adaptation tablette*/
+@media all and (max-width: 1080px) {
+    section article {
+		margin-right:0px;
+    }
+
+    section.petitehistoire-video-section iframe {
+      width: 600px;
+      height: 339px;
+    }
+}
+
+@media (max-width:1000px) {
+    .navbar-nav {
+        font-size: 12px;
+    }
+}
+
+
+/* adaptation aux écran de smartphone*/
+
+@media(max-width:769px) {
+
+    .navbar {
+        height: 50px;
+		-moz-box-shadow: 0px -1px 5px rgba(0, 0, 0, 0.55);
+		-webkit-box-shadow: 0px -1px 5px rgba(0, 0, 0, 0.55);
+		-o-box-shadow: 0px -1px 5px rgba(0, 0, 0, 0.55);
+	    box-shadow: 0px -1px 5px rgba(0, 0, 0, 0.55);
+    }
+    .navbar-default .navbar-nav > li > a {
+        line-height: 20px;
+    }
+	.navbar-collapse{
+		-moz-box-shadow: 0px 2px 5px -3px rgba(0, 0, 0, 0.55);
+		-webkit-box-shadow: 0px 2px 5px -3px rgba(0, 0, 0, 0.55);
+		-o-box-shadow: 0px 2px 5px -3px rgba(0, 0, 0, 0.55);
+		box-shadow: 0px 2px 5px -3px rgba(0, 0, 0, 0.55);
+		background-color: rgba(255, 255, 255, 0.95);
+	}
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #59403a;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #d0850b;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #d0850b;
+        background-color: #f9f9f9;
+    }
+
+    #logo-vaumadeuc-petit {
+        height: 50px;
+		margin-top: -15px;
+    }
+
+    .social-media {
+        display: none;
+    }
+
+    .social-media-mobile {
+        display: inline-block;
+        
+        /* background-color:#dff4ff; */
+    }
+
+    .social-media-mobile h2 {
+        font-family: Sanchez;
+        color: #755e4e;
+        font-size: 160%;
+        font-weight: bold;
+    }
+
+    .social-logo {
+        display: inline-block;
+        margin: 30px
+    }
+
+    .video {
+        margin-left: 15px;
+    }
+
+	section {
+		min-height: none;
+	    background-position: top;
+        text-align: left;
+        /* float: left; */
+        overflow: hidden;
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        -o-background-size: 100%;
+        background-size: 100%;
+        /* background-clip: padding-box; */
+        background-repeat: no-repeat;
+        /* background-attachment: fixed; */
+        /* padding-bottom: 50px; */
+    }
+    section article {
+		min-height: none;
+        background-color: transparent;
+        display: block;
+        padding: 20px;
+        padding-top: 3px;
+        float: right;
+        margin-top: 52%;
+        width: 100%;
+    }
+
+	.fp-section,
+	.fp-slide,
+	.fp-tableCell{
+	    height: auto !important;
+	}
+
+	.accueil-section p {
+		margin-bottom: 20px;
+	}
+
+	.fromagerie3-section p {
+	    font-size: 14px;
+	}
+
+	.logo-vaumadeuc {
+	    margin-top: 50px;
+	    height: 280px;
+	}
+
+    .accueil-section a img {
+        width: 100%;
+    }
+
+	footer {
+	    border-top: 1px black solid;
+	}
+
+	footer p {
+		margin :10px;
+		text-align: center;
+		font-size:12px;
+		font-weight:bold;
+
+	}
+
+  section.full-width article {
+    min-height: none;
+        background-color: transparent;
+        display: block;
+        padding: 20px;
+        padding-top: 3px;
+        float: right;
+        margin-top: 52%;
+        width: 100%;
+  }
+
+  section.petitehistoire-video-section article {
+    margin-top: 0%;
+  }
+
+  section.petitehistoire-video-section iframe {
+    width: 300px;
+    height: 170px;
+  }
+
+  section.full-width article .two-columns {
+      column-count: 1;
+  }
+
+  .two-columns {
+    column-count: 1;
+}
+
+	/*p{
+
+	}*/
+}
+
+@media (min-width:769px) {
+	footer {
+		bottom:0px;
+		position:absolute;
+		height:25px;
+		width:100%;
+		background-color: rgba(255, 255, 255, 0.50);
+	}
+
+	footer p {
+		padding: 0px;
+		margin:4px;
+		text-align: center;
+		font-weight:bold;
+		color:rgb(50, 50, 50);
+		font-size:13px;
+	}
+
+
+}
+
